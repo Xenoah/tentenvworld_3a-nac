@@ -1,0 +1,12 @@
+{
+  "name": "ZA NAS — 立体映画と夜の街",
+  "description": "ZA NASの3Dシーンを自由散策。透明な観覧床に乗ると元のカメラ軌道で約3分34秒の物語を鑑賞できます。誰でも全員同期の再生・停止を操作可能。上映外は小音量BGM。",
+  "tags": ["music", "cinema", "exploration"],
+  "recommendedCapacity": 8,
+  "maxCapacity": 16,
+  "physics": { "gravity": 9.81, "jump": 0, "allowInfiniteJump": false },
+  "camera": { "near": 0.03, "far": 6000 },
+  "render": { "toneMapping": "aces", "exposure": 1, "hdr": false },
+  "spawn": { "position": [0, 0.05, 8], "yaw": 0 },
+  "permissions": { "allowedDomains": [], "relaxedRules": [] }
+}

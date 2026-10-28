@@ -1,0 +1,4 @@
+dist/
+*.ttvw
+test-results/
+__pycache__/

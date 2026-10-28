@@ -1,0 +1,24 @@
+{
+  "name": "@tentenv-worlds/za-nas",
+  "version": "1.1.1",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "ttv-world dev --port 5182",
+    "build": "ttv-world build",
+    "pack": "ttv-world pack --no-build -o ZA_NAS.ttvw",
+    "typecheck": "tsc --noEmit",
+    "test": "node --import tsx --test test/*.test.ts"
+  },
+  "devDependencies": {
+    "@tentenv/sdk": "0.1.0",
+    "@react-three/fiber": "^9.8.2",
+    "@react-three/rapier": "^2.2.0",
+    "@types/react": "^19.2.0",
+    "@types/three": "^0.186.0",
+    "react": "^19.2.0",
+    "three": "^0.186.1",
+    "typescript": "~5.9.3",
+    "vite": "^8.3.5"
+  }
+}
